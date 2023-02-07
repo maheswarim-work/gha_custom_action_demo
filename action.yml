@@ -10,10 +10,6 @@ outputs:
   random_word:
     description: 'The random word'
 
-#runs:
-#  using: 'node16'
-#  main: 'main.js'
 runs:
   using: docker
   image: 'Dockerfile'
-
